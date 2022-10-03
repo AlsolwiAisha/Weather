@@ -1,0 +1,93 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+     background-image:url('../Images/beach-north-sea-sunset-8a.jpeg') ;
+    background-size: cover;
+     background-position:center ;
+     background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   
+    
+}
+.city{
+    width: 35%;
+    height: 75vh;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cityWeather{
+    width: 55%;
+    height: 75vh;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 20px;
+    margin-top: 100px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    font-size: 25px;
+     color: white;
+}
+.C_temp{
+    font-size: 100px;
+    margin: 0px;
+}
+.minMx{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.MX{
+    margin: 10px;
+}
+nav ul{
+    height:65vh; 
+    width:100%;
+    direction: rtl;
+    padding: 5px;
+    list-style-type: none;
+    margin: 0;
+    overflow:hidden; 
+    overflow-y:scroll;
+    color: rgb(160, 160, 160);}
+/* } #myInput {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+      } */
+      nav ul li a:hover:not(.header) {
+        background-color: rgba(238, 238, 238, 0.555); /* Add a hover effect to all links, except for headers */
+     color: black; }
+      #myUL li a {
+        border: 0.5px solid #ddd;
+        margin-top: -1px; 
+       padding: 12px;
+        text-decoration: none; 
+        font-size: 18px; 
+        color: rgb(17, 17, 17); 
+        display: block; /* Make it into a block element to fill the whole list */
+      }
+      
+   
