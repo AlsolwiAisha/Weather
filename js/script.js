@@ -53,19 +53,4 @@ function CF(v1){
     let x=(v1-32)/1.8;
     return `${Math.round(x)}°C`
 }
-// function myFunction() {
-//     var input, filter, ul, li, a, i, txtValue;
-//     input = document.querySelector("#myInput");
-//     filter = input.value.toUpperCase();
-//     ul = document.querySelector("#myUL");
-//     li = ul.querySelector("li");
-//     for (i = 0; i < li.length; i++) {
-//         a = li[i].querySelector("a")[0];
-//         txtValue = a.textContent || a.innerText;
-//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-//             li[i].style.display = "";
-//         } else {
-//             li[i].style.display = "none";
-//         }
-//     }
-// }
+getResponse('sanaa')
